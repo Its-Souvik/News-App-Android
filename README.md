@@ -32,11 +32,14 @@ A modern Android News Application built using Java and NewsAPI. The app allows u
 
 ## Screenshots
 
-Add screenshots of:
+### Home Screen
+![Home Screen](home_screen.png)
 
-* Home Screen
-* Search Feature
-* News Details Screen
+### Search Screen
+![Search Screen](search_screen.png)
+
+### Details Screen
+![Details Screen](details_screen.png)
 
 ## Project Structure
 
