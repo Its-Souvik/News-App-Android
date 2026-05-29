@@ -1,11 +1,13 @@
-# News App Android
+# 📰 News App Android
 
-A modern Android News Application built using Java and NewsAPI. The app allows users to browse the latest news headlines, search for news articles, and view detailed news content.
+A modern Android News Application built using Java, Retrofit, and NewsAPI. The app allows users to browse the latest news headlines, search for articles, filter news by category, and read detailed news content through a clean and responsive interface.
 
-## Features
+---
+
+## ✨ Features
 
 * Browse latest news headlines
-* Search news by keyword
+* Search news articles by keyword
 * Category-based news filtering
 
   * Business
@@ -18,9 +20,12 @@ A modern Android News Application built using Java and NewsAPI. The app allows u
 * Detailed article view
 * RecyclerView-based news feed
 * Modern Discover-style UI
-* Image loading for news articles
+* Dynamic image loading
+* Fast API integration using Retrofit
 
-## Tech Stack
+---
+
+## 🛠 Tech Stack
 
 * Java
 * Android Studio
@@ -29,19 +34,27 @@ A modern Android News Application built using Java and NewsAPI. The app allows u
 * Gson Converter
 * NewsAPI
 * CardView
+* Glide
 
-## Screenshots
+---
+
+## 📱 Screenshots
 
 ### Home Screen
+
 ![Home Screen](home_screen.png)
 
 ### Search Screen
+
 ![Search Screen](search_screen.png)
 
 ### Details Screen
+
 ![Details Screen](details_screen.png)
 
-## Project Structure
+---
+
+## 📂 Project Structure
 
 * MainActivity
 * DetailsActivity
@@ -51,40 +64,61 @@ A modern Android News Application built using Java and NewsAPI. The app allows u
 * NewsApiResponse
 * NewsHeadlines
 * Source
+* SelectListener
+* OnFaceDataListener
 
-## Installation
+---
 
-1. Clone the repository
+## 🚀 Installation
+
+### Clone Repository
 
 ```bash
 git clone https://github.com/Its-Souvik/News-App-Android.git
 ```
 
-2. Open in Android Studio
+### Open Project
 
-3. Add your NewsAPI key in:
+Open the project in Android Studio.
+
+### Configure API Key
+
+Add your NewsAPI key in:
 
 ```xml
-res/values/strings.xml
+app/src/main/res/values/strings.xml
 ```
 
 ```xml
 <string name="api_key">YOUR_API_KEY_HERE</string>
 ```
 
-4. Run the application
+### Run Application
 
-## Future Improvements
+Build and run the application on an Android device or emulator.
+
+---
+
+## 🔮 Future Improvements
 
 * Dark Mode
 * Bookmark Articles
 * Share News
 * Offline Caching
 * Pagination
-* Better Category UI
+* Pull-to-Refresh
+* Better Category Selection UI
 
-## Author
+---
 
-Souvik Ghosh
+## 👨‍💻 Author
+
+**Souvik Ghosh**
 
 GitHub: https://github.com/Its-Souvik
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a star on GitHub.
